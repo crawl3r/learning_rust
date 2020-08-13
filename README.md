@@ -7,3 +7,6 @@ A quick script that basically just reads a file line by line. I assume it doesn'
 
 ### generator
 Uses the rand crate to create 1000 (hardcoded) randomly generated strings. Each iteration of the generator uses the current iteration value as it's length, i.e 1, 2, 3, 4... 1000. As I am just using the rand library I am solely relying on the rng engine to do this for me.
+
+### recurse
+@h0mbre_ put out a tweet about attempting to recursively obtain a process and all it's children whilst keeping track of the level of recursion (depth?) for each identified process. I tried to achieve this using recursion and then maintaing a vector of nodes (sort of) with knowledge of their pid, their level of recursion and their parent pid. 
