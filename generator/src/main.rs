@@ -7,6 +7,7 @@ const CHARACTERS: &[u8; 60] = b"abcdefghilkjapqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWX
 // function that generates our string with a specific length
 fn generate_string(min: i32, max: i32) -> String {
     let mut rng = rand::thread_rng(); // this cache is probably not as effective as I think
+	let mut s = String::from("");	  // new, empty String
 
 	// loop n times, relative to parameters
     for _ in min..=max {
