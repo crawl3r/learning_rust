@@ -10,3 +10,11 @@ Uses the rand crate to create 1000 (hardcoded) randomly generated strings. Each 
 
 ### recurse
 @h0mbre_ put out a tweet about attempting to recursively obtain a process and all it's children whilst keeping track of the level of recursion (depth?) for each identified process. I tried to achieve this using recursion and then maintaing a vector of nodes (sort of) with knowledge of their pid, their level of recursion and their parent pid. 
+  
+### License  
+I'm just a simple skid. Licensing isn't a big issue to me, I post things that I find helpful online in the hope that others can:  
+ A) learn from the code  
+ B) find use with the code or   
+ C) need to just have a laugh at something to make themselves feel better  
+  
+Either way, if this helped you - cool :)  
